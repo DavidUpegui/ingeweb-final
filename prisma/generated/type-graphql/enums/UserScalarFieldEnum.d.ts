@@ -1,0 +1,10 @@
+export declare enum UserScalarFieldEnum {
+    id = "id",
+    name = "name",
+    email = "email",
+    emailVerified = "emailVerified",
+    image = "image",
+    roleId = "roleId",
+    createdAt = "createdAt",
+    updatedAt = "updatedAt"
+}
