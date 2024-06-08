@@ -5,10 +5,10 @@ import { IoLibrary } from "react-icons/io5";
 
 const SideHeader = () => {
 	return (
-		<header className="flex flex-col fixed w-1/6 h-screen bg-gray-200 pt-10 ">
+		<header className="flex flex-col w-1/6 h-screen bg-gray-200">
 			<Link
 				href="/"
-				className="flex items-center  ml-4 mb-4 gap-x-3 text-gray-900 hover:text-gray-700"
+				className="flex items-center  ml-4 mt-4 mb-4 gap-x-3 text-gray-900 hover:text-gray-700"
 			>
 				<IoLibrary className="w-6 h-6" />
 				<h2 className="text-2xl font-bold ">Biblioteca</h2>

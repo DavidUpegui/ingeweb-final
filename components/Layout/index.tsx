@@ -1,16 +1,16 @@
-import React, { ReactNode } from 'react'
-import SideHeader from './SideHeader'
+import React, { ReactNode } from "react";
+import SideHeader from "./SideHeader";
 
-interface Props{
-    children: ReactNode
+interface Props {
+	children: ReactNode;
 }
-const Layout = ({children}: Props) => {
-  return (
-    <div>
-        <SideHeader/>
-        {children}
-    </div>
-  )
-}
+const Layout = ({ children }: Props) => {
+	return (
+		<div className="flex">
+			<SideHeader />
+			<div>{children}</div>
+		</div>
+	);
+};
 
-export default Layout
+export default Layout;
